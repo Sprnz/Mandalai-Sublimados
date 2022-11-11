@@ -1,0 +1,15 @@
+
+[
+    {"nombre": "Libreta", "id": 1, "precio": 100, "img": "img/libreta.png", "cantidad": 1},
+    {"nombre": "Remera", "id": 2, "precio": 200, "img": "img/remera.png", "cantidad": 1},
+    {"nombre": "Taza de plástico", "id": 3, "precio": 300, "img": "img/tazaP.png", "cantidad": 1},
+    {"nombre": "Taza de cerámica", "id": 4, "precio": 400, "img": "img/tazaC.png", "cantidad": 1},
+    {"nombre": "Termo", "id": 5, "precio": 500, "img": "img/termo.png", "cantidad": 1},
+    {"nombre": "Buzo", "id": 6, "precio": 600, "img": "img/buzo.png", "cantidad": 1},
+    {"nombre": "Poster", "id": 7, "precio": 100, "img": "img/poster.png", "cantidad": 1},
+    {"nombre": "Stickers", "id": 8, "precio": 50, "img": "img/sticker.png", "cantidad": 1},
+    {"nombre": "Pin", "id": 9, "precio": 50, "img": "img/pin.png", "cantidad": 1},
+    {"nombre": "Cuaderno A4", "id": 10, "precio": 100, "img": "img/cuaderno.png", "cantidad": 1},
+    {"nombre": "Llavero", "id": 11, "precio": 60, "img": "img/llavero.png", "cantidad": 1},
+    {"nombre": "Mate", "id": 12, "precio": 200, "img": "img/mate.png", "cantidad": 1}
+]

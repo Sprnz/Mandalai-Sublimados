@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: rgb(157, 190, 233);
+    font-family: 'Bebas Neue', cursive;
+    background-image: url(./img/cover.jpg);
+}
+
+h1 {
+    margin: 5px;
+    letter-spacing: 3px;
+    text-align: center;
+    font-size: xxx-large;
+}
+
+.precio {
+    font-size: larger;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+}
+
+.container-fluid {
+    width: fit-content;
+}
+
+.ico img {
+    cursor: pointer;
+}
+
+.ico {display: flex;}
+
+.ico h1 {color: white;
+margin-top: 10px;
+margin-left: 40px;}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cards {
+    background: rgba(255, 255, 255, 0.35);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(9px);
+    -webkit-backdrop-filter: blur(9px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+
+    height: 400px;
+    width: 250px;
+    padding: 10px;
+    margin: 15px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.cards img {
+    height: 250px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 5%;
+}
+
+.cards h2 {
+    margin: 5px;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.btn {
+    background-color: rgb(27, 27, 27);
+    border: rgb(0, 0, 0) solid 1px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.carritoContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #21252975;
+    width: 800px;
+    border-radius: 20px;
+}
+
+.totalContainer {
+    width: 730px;
+    display: flex;
+    margin: 15px;
+
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.totalContainer div {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.totalContainer div p {
+    margin: inherit;
+}
+
+.miCarrito {
+    background-color: black;
+}
+
+.cardsCarrito {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    width: 330px;
+    height: 200px;
+    margin: 10px 0px 10px 0px;
+    background: rgba(255, 255, 255, 0.35);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(9px);
+    -webkit-backdrop-filter: blur(9px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.cardsCarrito div {
+    text-align: center;
+    margin: 10px;
+}
+
+.cardsCarrito div h2 {
+    font-size: 20px;
+}
+
+.cardsCarrito img {
+    height: 150px;
+    width: 150px
+}
+
+.eliminar img {
+    width: inherit;
+    height: inherit;
+    cursor: pointer;
+}
+
+.contador p {
+    margin: 1px;
+    display: flex;
+    flex-direction: row;
+}
+
+.contador {
+    display: flex;
+    flex-direction: row;
+}
+
+.suma {
+    background-color: rgba(0, 0, 0, 0.226);
+    border-radius: 15%;
+    cursor: pointer;
+}
+
+.resta {
+    background-color: rgba(0, 0, 0, 0.226);
+    border-radius: 15%;
+    cursor: pointer;
+}
